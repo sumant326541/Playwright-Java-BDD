@@ -1,0 +1,90 @@
+# Created at 2024-04-19T13:32:25.597
+node:internal/modules/cjs/loader:1144
+
+# Created at 2024-04-19T13:32:25.598
+  const err = new Error(message);
+
+# Created at 2024-04-19T13:32:25.598
+              ^
+
+# Created at 2024-04-19T13:32:25.599
+
+
+# Created at 2024-04-19T13:32:25.600
+Error: Cannot find module './../../package.json'
+
+# Created at 2024-04-19T13:32:25.601
+Require stack:
+
+# Created at 2024-04-19T13:32:25.602
+- /private/var/folders/7j/zs_tl2ls68s24krh6n__zfh00000gn/T/playwright-java-2524943792902224442/package/lib/utils/userAgent.js
+
+# Created at 2024-04-19T13:32:25.604
+- /private/var/folders/7j/zs_tl2ls68s24krh6n__zfh00000gn/T/playwright-java-2524943792902224442/package/lib/utils/index.js
+
+# Created at 2024-04-19T13:32:25.606
+- /private/var/folders/7j/zs_tl2ls68s24krh6n__zfh00000gn/T/playwright-java-2524943792902224442/package/lib/cli/programWithTestStub.js
+
+# Created at 2024-04-19T13:32:25.607
+- /private/var/folders/7j/zs_tl2ls68s24krh6n__zfh00000gn/T/playwright-java-2524943792902224442/package/cli.js
+
+# Created at 2024-04-19T13:32:25.607
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+
+# Created at 2024-04-19T13:32:25.608
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+
+# Created at 2024-04-19T13:32:25.608
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+
+# Created at 2024-04-19T13:32:25.608
+    at require (node:internal/modules/helpers:176:18)
+
+# Created at 2024-04-19T13:32:25.609
+    at getPlaywrightVersion (/private/var/folders/7j/zs_tl2ls68s24krh6n__zfh00000gn/T/playwright-java-2524943792902224442/package/lib/utils/userAgent.js:91:54)
+
+# Created at 2024-04-19T13:32:25.609
+    at HarTracer.stop (/private/var/folders/7j/zs_tl2ls68s24krh6n__zfh00000gn/T/playwright-java-2524943792902224442/package/lib/server/har/harTracer.js:414:54)
+
+# Created at 2024-04-19T13:32:25.610
+    at Tracing.abort (/private/var/folders/7j/zs_tl2ls68s24krh6n__zfh00000gn/T/playwright-java-2524943792902224442/package/lib/server/trace/recorder/tracing.js:204:21)
+
+# Created at 2024-04-19T13:32:25.610
+    at CRBrowserContext._didCloseInternal (/private/var/folders/7j/zs_tl2ls68s24krh6n__zfh00000gn/T/playwright-java-2524943792902224442/package/lib/server/browserContext.js:191:18)
+
+# Created at 2024-04-19T13:32:25.611
+    at CRBrowserContext._browserClosed (/private/var/folders/7j/zs_tl2ls68s24krh6n__zfh00000gn/T/playwright-java-2524943792902224442/package/lib/server/browserContext.js:183:10)
+
+# Created at 2024-04-19T13:32:25.612
+    at CRBrowser._didClose (/private/var/folders/7j/zs_tl2ls68s24krh6n__zfh00000gn/T/playwright-java-2524943792902224442/package/lib/server/browser.js:109:52) {
+
+# Created at 2024-04-19T13:32:25.612
+  code: 'MODULE_NOT_FOUND',
+
+# Created at 2024-04-19T13:32:25.613
+  requireStack: [
+
+# Created at 2024-04-19T13:32:25.613
+    '/private/var/folders/7j/zs_tl2ls68s24krh6n__zfh00000gn/T/playwright-java-2524943792902224442/package/lib/utils/userAgent.js',
+
+# Created at 2024-04-19T13:32:25.614
+    '/private/var/folders/7j/zs_tl2ls68s24krh6n__zfh00000gn/T/playwright-java-2524943792902224442/package/lib/utils/index.js',
+
+# Created at 2024-04-19T13:32:25.614
+    '/private/var/folders/7j/zs_tl2ls68s24krh6n__zfh00000gn/T/playwright-java-2524943792902224442/package/lib/cli/programWithTestStub.js',
+
+# Created at 2024-04-19T13:32:25.615
+    '/private/var/folders/7j/zs_tl2ls68s24krh6n__zfh00000gn/T/playwright-java-2524943792902224442/package/cli.js'
+
+# Created at 2024-04-19T13:32:25.615
+  ]
+
+# Created at 2024-04-19T13:32:25.616
+}
+
+# Created at 2024-04-19T13:32:25.618
+
+
+# Created at 2024-04-19T13:32:25.621
+Node.js v20.11.0
+
